@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.reserve-container{
+    display: flex;
+    min-height: 100vh;
+    background: url(images/img8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.resevation{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, white -100%, transparent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+
+.resevation form{
+    padding: 50px;
+    width: 60%;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    background-color: rgb(255, 255, 255, 0.5);
+}
+
+
+.resevation form h2{
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: rgb(239, 122, 30);
+    text-align: center;
+}
+
+
+.resevation form div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.resevation form input, 
+.resevation form textarea{
+    width: 50%;
+    padding: 15px;
+    margin: 5px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.resevation form textarea {
+    resize: none;
+    width: 100%;
+}
+
+
+.resevation form .btn{
+    display: block;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+
+.resevation form .btn:hover{
+    transform: translateX(0);
+}
+
+
+
+
+
+
