@@ -26,7 +26,7 @@ nav{
 
 nav .nav1 a{
     color: black;
-    font-size: 13px;
+    font-size: 20px;
     padding-right: 20px;
     transition: all 0.3s;
 }
@@ -42,8 +42,10 @@ nav .user a{
 }
 
 
-.logo img{
-    width: 200px;
+.logo {
+    font-size: 70px;
+    color: rgb(243, 188, 60);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
